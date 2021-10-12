@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-08T11:44:26Z" name="Default suite" finished-at="2021-10-08T11:44:38Z" duration-ms="12155">
+    <groups>
+    </groups>
+    <test started-at="2021-10-08T11:44:26Z" name="Default test" finished-at="2021-10-08T11:44:38Z" duration-ms="12155">
+      <class name="day2.PositiveContactListTest">
+        <test-method signature="addingContact()[pri:0, instance:day2.PositiveContactListTest@409c54f]" started-at="2021-10-08T11:44:26Z" name="addingContact" description="Getting specific Contact " finished-at="2021-10-08T11:44:29Z" duration-ms="2697" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingContact -->
+        <test-method signature="getContactListInfo()[pri:0, instance:day2.PositiveContactListTest@409c54f]" started-at="2021-10-08T11:44:29Z" name="getContactListInfo" description="Getting all Contact List" finished-at="2021-10-08T11:44:37Z" duration-ms="8482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getContactListInfo -->
+        <test-method signature="updateContact()[pri:0, instance:day2.PositiveContactListTest@409c54f]" started-at="2021-10-08T11:44:37Z" name="updateContact" description="Updating specific Contact and getting It to display" finished-at="2021-10-08T11:44:38Z" depends-on-methods="day2.PositiveContactListTest.addingContact" duration-ms="457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateContact -->
+        <test-method signature="deleteContact()[pri:0, instance:day2.PositiveContactListTest@409c54f]" started-at="2021-10-08T11:44:38Z" name="deleteContact" description="Delete specific Contact" finished-at="2021-10-08T11:44:38Z" depends-on-methods="day2.PositiveContactListTest.updateContact" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteContact -->
+      </class> <!-- day2.PositiveContactListTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
